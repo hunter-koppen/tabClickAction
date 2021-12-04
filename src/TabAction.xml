@@ -4,6 +4,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
     <name>Tab Action</name>
     <description>Adds an action to the onclick of a tab</description>
+    <icon>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAmElEQVRIiWNgGAUkgqMMDAz/seDDJKqBA0Y0/n88ljOSoAYOmPAopgpgIUMPhivxAZr7gBQLsEUswcgmJZJJAXBzB1UQjVALyMkH2ADOvDHkggiWF2hmAQYgNw6ILo/QffCESH1kJw5PBgaGxwyEy5sVSJY04FHXQK5D0EE5FsPrqWU4NkvghjNT0YKjDJDIP8jAwNAIEwQAOE84iBuU/poAAAAASUVORK5CYII=
+    </icon>
     <properties>
         <propertyGroup caption="General">
             <property key="tabName" type="string" required="true">
