@@ -3,7 +3,7 @@
   "widgetName": "TabAction",
   "version": "1.0.0",
   "description": "Adds an action to the onclick of a tab",
-  "copyright": "",
+  "copyright": "2021 CLEVR NL B.V.",
   "author": "Hunter Koppen",
   "config": {
     "projectPath": "../..//",
