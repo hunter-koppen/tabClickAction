@@ -9,7 +9,7 @@ function TabContainer(props) {
     }, []);
 
     function onClick() {
-        if (props.onClickAction?.canExecute) {
+        if (props.onClickAction) {
             props.onClickAction.execute();
         }
     }
