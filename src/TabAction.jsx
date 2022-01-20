@@ -1,9 +1,14 @@
-import { Component, createElement } from "react";
+import { createElement, useCallback } from "react";
 
-import TabContainer from "./components/TabContainer";
+import { TabContainer } from "./components/TabContainer";
 
-export default class TabAction extends Component {
-    render() {
-        return <TabContainer onClickAction={this.props.onClickAction} tabName={this.props.tabName} />;
-    }
+export function TabAction(props) {
+    const { onClickAction, tabName } = props;
+    const onClickHandler = useCallback(() => {
+        if (onClickAction && onClickAction.canExecute) {
+            onClickAction.execute();
+        }
+    }, [onClickAction]);
+
+    return <TabContainer onClickAction={onClickHandler} tabName={tabName} />;
 }

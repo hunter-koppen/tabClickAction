@@ -1,20 +1,13 @@
 import React, { createElement, useEffect } from "react";
 
-function TabContainer(props) {
+export function TabContainer(props) {
+    const { onClickAction, tabName } = props;
     const nodeRef = React.createRef();
 
     useEffect(() => {
-        const tabs = nodeRef.current.parentNode.querySelectorAll(".mx-name-" + props.tabName);
-        tabs.forEach(t => (t.onclick = onClick));
+        const tabs = nodeRef.current.parentNode.querySelectorAll(".mx-name-" + tabName);
+        tabs.forEach(t => (t.onclick = onClickAction));
     }, []);
 
-    function onClick() {
-        if (props.onClickAction) {
-            props.onClickAction.execute();
-        }
-    }
-
-    return <div ref={nodeRef} />;
+    return (<div ref={nodeRef} />);
 }
-
-export default TabContainer;
