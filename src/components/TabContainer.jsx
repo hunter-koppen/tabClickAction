@@ -9,5 +9,5 @@ export function TabContainer(props) {
         tabs.forEach(t => (t.onclick = onClickAction));
     }, []);
 
-    return (<div ref={nodeRef} />);
+    return <div ref={nodeRef} />;
 }
