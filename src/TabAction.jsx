@@ -5,7 +5,7 @@ import { TabContainer } from "./components/TabContainer";
 export function TabAction(props) {
     const { onClickAction, tabName } = props;
     const onClickHandler = useCallback(() => {
-        if (onClickAction && onClickAction.canExecute) {
+        if (onClickAction) {
             onClickAction.execute();
         }
     }, [onClickAction]);
