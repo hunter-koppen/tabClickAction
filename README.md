@@ -1,4 +1,4 @@
-## Tab Action
+## Tab Click Action
 
 Fire an action when clicking on a tab.
 
@@ -12,4 +12,4 @@ If you want to add another action to a different tab from the same tab widget si
 
 ## Issues, suggestions and feature requests
 
-https://github.com/hunter-koppen/tabAction/issues
+https://github.com/hunter-koppen/tabClickAction/issues
