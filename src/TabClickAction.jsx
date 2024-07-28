@@ -2,12 +2,10 @@ import { createElement, useCallback } from "react";
 
 import { TabContainer } from "./components/TabContainer";
 
-export function TabAction(props) {
+export function TabClickAction(props) {
     const { onClickAction, tabName } = props;
     const onClickHandler = useCallback(() => {
-        if (onClickAction && onClickAction.canExecute) {
-            onClickAction.execute();
-        }
+        onClickAction.execute();
     }, [onClickAction]);
 
     return <TabContainer onClickAction={onClickHandler} tabName={tabName} />;

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget id="clevr.tabaction.TabAction" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web"
+<widget id="kobeon.tabclickaction.TabClickAction" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web"
     xmlns="http://www.mendix.com/widget/1.0/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
-    <name>Tab Action</name>
+    <name>Tab Click Action</name>
     <description/>
     <icon>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAmElEQVRIiWNgGAUkgqMMDAz/seDDJKqBA0Y0/n88ljOSoAYOmPAopgpgIUMPhivxAZr7gBQLsEUswcgmJZJJAXBzB1UQjVALyMkH2ADOvDHkggiWF2hmAQYgNw6ILo/QffCESH1kJw5PBgaGxwyEy5sVSJY04FHXQK5D0EE5FsPrqWU4NkvghjNT0YKjDJDIP8jAwNAIEwQAOE84iBuU/poAAAAASUVORK5CYII=
@@ -14,8 +14,8 @@
                 <description>The name of the tab you want to add an action to.</description>
             </property>
             <property key="onClickAction" type="action" required="true">
-                <caption>On click action</caption>
-                <description>Action to trigger when tab is clicked</description>
+                <caption>Action</caption>
+                <description>Action to fire when tab is clicked</description>
             </property>
         </propertyGroup>
     </properties>

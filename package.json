@@ -1,16 +1,16 @@
 {
-  "name": "tabaction",
-  "widgetName": "TabAction",
+  "name": "tabclickaction",
+  "widgetName": "TabClickAction",
   "version": "1.0.0",
-  "description": "Adds an action to the onclick of a tab",
-  "copyright": "2021 CLEVR NL B.V.",
+  "description": "Adds an action when clicking on a tab",
+  "copyright": "Kobeon B.V. 2024",
   "author": "Hunter Koppen",
   "config": {
     "projectPath": "../..//",
     "mendixHost": "http://localhost:8080",
     "developmentPort": "3000"
   },
-  "packagePath": "clevr",
+  "packagePath": "kobeon",
   "scripts": {
     "start": "pluggable-widgets-tools start:server --open",
     "dev": "pluggable-widgets-tools start:web",
@@ -22,7 +22,7 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^8.14.0"
+    "@mendix/pluggable-widgets-tools": "^10.12.1"
   },
   "dependencies": {
     "classnames": "^2.2.6"
