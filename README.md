@@ -10,10 +10,6 @@ simply add the action you wish to fire when someone clicks on the tab.
 
 If you want to add another action to a different tab from the same tab widget simply add another widget.
 
-## Demo project
-
-https://tabaction-sandbox.mxapps.io/
-
 ## Issues, suggestions and feature requests
 
 https://github.com/hunter-koppen/tabAction/issues
