@@ -1,9 +1,9 @@
 {
   "name": "tabclickaction",
   "widgetName": "TabClickAction",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Adds an action when clicking on a tab",
-  "copyright": "Kobeon B.V. 2024",
+  "copyright": "Kobeon B.V. 2025",
   "author": "Hunter Koppen",
   "config": {
     "projectPath": "../..//",
@@ -22,7 +22,7 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^10.12.1"
+    "@mendix/pluggable-widgets-tools": "^10.21.2"
   },
   "dependencies": {
     "classnames": "^2.2.6"
