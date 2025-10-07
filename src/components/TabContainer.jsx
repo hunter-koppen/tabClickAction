@@ -5,7 +5,7 @@ export function TabContainer(props) {
     const nodeRef = React.createRef();
 
     useEffect(() => {
-        const tabs = nodeRef.current.parentNode.querySelectorAll(".mx-name-" + tabName);
+        const tabs = nodeRef.current.parentNode.parentNode.querySelectorAll(".mx-name-" + tabName);
         tabs.forEach(t => (t.onclick = onClickAction));
     }, []);
 
